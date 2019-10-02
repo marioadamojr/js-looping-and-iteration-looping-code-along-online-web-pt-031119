@@ -11,5 +11,5 @@ function countdown(number){
   let n = number
   while (n >= 0){
     console.log(n--);
-  } 
+  }
   
