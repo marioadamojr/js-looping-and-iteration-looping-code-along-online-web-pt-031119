@@ -10,6 +10,7 @@ function writeCards(names, occasion) {
 function countdown(number){
   let n = number
   while (n >= 0){
-    console.log(n--);
+    console.log(n);
+    n--;
   }
 }
