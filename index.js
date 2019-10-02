@@ -1,7 +1,8 @@
 // Code your solutions in this file
-function writeCards(cards) {
+function writeCards(names, occasion) {
+  let returnMessages = []
   for (let i = 0; i < cards.length; i++) {
-    console.log(`Thank you, ${cards[i]}, for the wonderful birthdat gift!`)
+    returnMessages.push(`Thank you, ${names[i]}, for the wonderful ${occasion} gift!`)
   }
-  return cards;
+  return returnMessages;
 }
