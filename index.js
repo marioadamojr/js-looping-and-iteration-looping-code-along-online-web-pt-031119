@@ -12,4 +12,4 @@ function countdown(number){
   while (n >= 0){
     console.log(n--);
   }
-  
+}
