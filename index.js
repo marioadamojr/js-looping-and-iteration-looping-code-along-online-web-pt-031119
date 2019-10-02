@@ -6,3 +6,10 @@ function writeCards(names, occasion) {
   }
   return returnMessages;
 }
+
+function countdown(number){
+  while (number >= 0){
+    console.log(number);
+    number--;
+  } 
+  
